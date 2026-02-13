@@ -149,6 +149,24 @@ height: 1024px;
         width: 750px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 24px;
     }
+}
+/* SACRED POWERS */
+.sacred-text{
+    margin-top: 100px;
+    color: #fff;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+  .sacred-title{
+    margin-top: 140px;
+  }
+  .sacred-text {
+        margin-top: 300px;
+      width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+  }
 }
