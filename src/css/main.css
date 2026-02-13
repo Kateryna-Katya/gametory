@@ -69,3 +69,34 @@ font-family: "Jost", sans-serif;
         height: 70px;
   }
 }
+/* DISCLAIMER */
+.disclaimer-conntainer{
+    padding: 17px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.disclaimer-text{
+    font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.125;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.disclaimer-title{
+    font-family: "Londrina Solid", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.33333;
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(90deg, #092e9f 0%, #00fbff 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
