@@ -89,3 +89,39 @@
             </div>
         </article>
 </section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+                <h2 class="title glimpse-title">
+                    <span class="stroke">A Glimpse Inside the Temple</span>
+                    <span class="gradient">A Glimpse Inside the Temple</span>
+                </h2>
+        <div class="demo-wrapper" id="game">
+            <picture>
+                <source srcset="
+                /img/demo/demo-desk.png 1x,
+                /img/demo/demo-desk@2x.png 2x
+                " media="(min-width: 1440px)" />
+                <source srcset="
+                /img/demo/demo-mob.png 1x,
+                /img/demo/demo-mob@2x.png 2x
+                " media="(max-width: 1439px)" />
+                <img class="demo-img" src="/img/demo/demo-mob.png" alt="Book of the priestess" loading="lazy" />
+            </picture>
+
+
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe" name="gameIframe"></iframe>
+
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img class="close-img" src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+            <a class="demo-btn pulse" href="#"
+                data-game-url="https://games-cv.com/book_of_the_priestess_bonus_buy"
+                target="gameIframe">
+                <img src="/img/hero/button.png" alt="Open the Sacred Book" loading="lazy">
+            </a>
+        </div>
+
+    </div>
+</section>
