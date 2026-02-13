@@ -97,3 +97,31 @@ font-family: "Jost", sans-serif;
     padding-bottom: 50px;
    }
 }
+/* Play Book of the Priestess */
+.play-section{
+    background-image: url("/img/play/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.play-img{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+ .play-section{
+    background-image: url("/img/play/desk.png");
+ }
+ .play-title{
+    margin-top: 20px;
+ }
+.play-img{
+        margin-top: 160px;
+width: 1160px;
+    height: 653px;    
+}
+.play-container{
+    padding-bottom: 135px;
+}
+}
