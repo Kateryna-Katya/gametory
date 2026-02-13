@@ -1,0 +1,71 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.home-section{
+    background-image: url("/img/hero/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 852px;
+}
+.home-logo {
+    margin-top: 70px;
+}
+
+.home-text {
+    margin-top: 100px;
+    width: 290px;
+font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+}
+@media only screen and (min-width: 1440px) {
+  .home-section{
+    background-image: url("/img/hero/desk.png");
+    height: 796px;
+  }
+  .home-container{
+    padding-left: 220px;
+  }
+  .home-title{
+  margin-left: 0;
+  margin-right: auto;
+  width: 542px;
+  }
+  .home-text{
+    font-size: 24px;
+    width: 530px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 110px;
+  }
+  .home-logo{
+    margin-top: 40px;
+  }
+  .hero-link{
+    margin-left: 120px;
+    margin-right: auto;
+    width: 315px;
+        height: 70px;
+  }
+}
