@@ -340,6 +340,9 @@ left: 32%;
 .gallery-swiper{
 margin-top: 70px;
 }
+.leaves{
+    display: none;
+}
 @media only screen and (min-width: 1440px) {
   .gallery-container{
     padding-left: 1px;
@@ -358,6 +361,7 @@ margin-top: 70px;
       opacity: 1;
   }
   .leaves{
+    display: block;
     position: absolute;
     bottom: 10%;
     z-index: 200;
