@@ -126,20 +126,26 @@ width: 1160px;
 }
 }
 /* big-section */
-.big-section{
+.big-container{
     background-image: url("/img/big/mob.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     height: 852px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 @media only screen and (min-width: 1440px) {
-.big-section {
+.big-container {
         background-image: url("/img/big/desk.png");
 height: 1024px;
     }
 }
 /* THE RITUAL */
+.ritual-container{
+    padding-left: 0;
+    padding-right: 0;
+}
 .ritual-text{
     margin-top: 84px;
 }
@@ -161,10 +167,10 @@ height: 1024px;
 }
 @media only screen and (min-width: 1440px) {
   .sacred-title{
-    margin-top: 140px;
+    margin-top: 100px;
   }
   .sacred-text {
-        margin-top: 300px;
+        margin-top: 260px;
       width: 760px;
       margin-left: auto;
       margin-right: auto;
