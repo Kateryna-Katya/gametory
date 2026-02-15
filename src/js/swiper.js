@@ -30,7 +30,7 @@ const gallerySwiper = new Swiper('.gallery-swiper', {
 const whySwiper = new Swiper('.why-swiper', {
   modules: [Autoplay],
 
-  slidesPerView: 1.2,
+  slidesPerView: 'auto',
   centeredSlides: true,
   spaceBetween: 24,
 

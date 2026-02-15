@@ -367,3 +367,51 @@ margin-top: 70px;
     z-index: 200;
   }
 }
+/* Why */
+.why-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.why-title{
+    font-size: 30px;
+        line-height: 1.06667;
+}
+.why-swiper{
+    margin-top: 130px;
+}
+  .why-swiper .swiper-slide {
+      width: 214px;
+  }
+  .why-img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  @media only screen and (min-width: 1440px) {
+  .why-container{
+    padding-left: 138px;
+    padding-right: 138px;
+  }
+  .why-title{
+    font-size: 40px;
+  }
+  .why-swiper{
+width: 1164px;
+margin-left: auto;
+margin-right: auto;
+  }
+  .why-swiper .swiper-wrapper{
+width: 1164px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: start;
+
+
+    transform: none !important;
+  }
+.why-text{
+    font-size: 16px;
+}
+    
+  }
